@@ -18,4 +18,135 @@
 <p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
 ]]></content>
   </entry>
+  <entry>
+    <title>MarkDown初学[篇一]</title>
+    <url>/2022/04/19/MarkDown%E5%88%9D%E5%AD%A6-%E7%AF%87%E4%B8%80/</url>
+    <content><![CDATA[<h1 id="第一次尝试使用md文件"><a href="#第一次尝试使用md文件" class="headerlink" title="第一次尝试使用md文件"></a>第一次尝试使用md文件</h1><blockquote>
+<p>Tips：</p>
+<ul>
+<li>是的这是一篇试毒之作看起来貌似还可以（失去断句能力）</li>
+<li>啊 这里其实有尝试用markdown的缩进语法但是失败了…所以，俺还是熟悉前面几个常用的吧</li>
+</ul>
+</blockquote>
+<h2 id="这是篇一"><a href="#这是篇一" class="headerlink" title="这是篇一"></a><font face="小赖字体 等宽 SC">这是篇一</font></h2><blockquote>
+<p>是的没有零OvO</p>
+</blockquote>
+<h6 id="看了好多大佬整理的小白专用md文件指南-其实也就两三篇-，感觉我这种菜鸡可能需要更简洁一点？-是的我就是看不懂QAQ-孩子爆哭呜呜呜-好了不吐槽了，上菜单！"><a href="#看了好多大佬整理的小白专用md文件指南-其实也就两三篇-，感觉我这种菜鸡可能需要更简洁一点？-是的我就是看不懂QAQ-孩子爆哭呜呜呜-好了不吐槽了，上菜单！" class="headerlink" title="看了好多大佬整理的小白专用md文件指南 [ 其实也就两三篇 ] ，感觉我这种菜鸡可能需要更简洁一点？ [ 是的我就是看不懂QAQ 孩子爆哭呜呜呜 ] 好了不吐槽了，上菜单！"></a>看了好多大佬整理的小白专用md文件指南 [ 其实也就两三篇 ] ，感觉我这种菜鸡可能需要更简洁一点？ [ 是的我就是看不懂QAQ 孩子爆哭呜呜呜 ] 好了不吐槽了，上菜单！</h6><ol>
+<li><p>标题</p>
+</li>
+<li><p><em>倾斜</em> 、<strong>加粗</strong> 、<em><strong>倾斜加粗</strong></em>  、<del>删除</del> </p>
+</li>
+<li><blockquote>
+<p>引用</p>
+</blockquote>
+</li>
+<li><p>修改字色( <font color=#ff1493>比如这个#ff1493</font> )、字号( <font size=3>据说浏览器常用是3</font>,<font size=1>这是1</font>，依旧没有0 )、字体( <font face="霞鹜文楷">比如我最喜欢的霞鹜文楷</font> )  [ 我愿称之为花里胡哨专用QwQ ]</p>
+</li>
+<li><p>剩下的下一篇吧，要去上课了。。。[ 实际上我依旧改了两天QAQ ]</p>
+</li>
+</ol>
+<h3 id="1-标题"><a href="#1-标题" class="headerlink" title="1. 标题"></a>1. 标题</h3><p>  嗯，这个不难，语法如下：</p>
+<ul>
+<li> # 一级标题</li>
+<li> ## 二级标题</li>
+<li> ### 三级标题</li>
+<li> ……</li>
+<li> #### 六级标题</li>
+</ul>
+<p>  貌似只有六级标题。效果如下：</p>
+<ul>
+<li><h1 id="一级标题"><a href="#一级标题" class="headerlink" title="一级标题"></a>一级标题</h1></li>
+<li><h2 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题"></a>二级标题</h2></li>
+<li><h3 id="三级标题"><a href="#三级标题" class="headerlink" title="三级标题"></a>三级标题</h3></li>
+<li><p>……</p>
+</li>
+<li><h6 id="六级标题"><a href="#六级标题" class="headerlink" title="六级标题"></a>六级标题</h6></li>
+</ul>
+<p><font color=#cf4813 face="霞鹜文楷">敲重点：这里的”#“后有空格，加在最后一个”#”号后面（ … ）</font></p>
+<h3 id="2-倾斜、加粗、倾斜加粗"><a href="#2-倾斜、加粗、倾斜加粗" class="headerlink" title="2. 倾斜、加粗、倾斜加粗"></a>2. 倾斜、加粗、倾斜加粗</h3><p>  语法如下：</p>
+<ul>
+<li><p>_倾斜_  or  *倾斜*</p>
+</li>
+<li><p>__加粗__or**加粗**</p>
+</li>
+<li><p>___倾斜加粗___***倾斜加粗***</p>
+</li>
+<li><p>~~删除~~</p>
+<p>效果如下：</p>
+</li>
+<li><p><em>倾斜</em></p>
+</li>
+<li><p><strong>加粗</strong></p>
+</li>
+<li><p><em><strong>倾斜加粗</strong></em> </p>
+</li>
+<li><p><del>删除</del></p>
+</li>
+</ul>
+<p><font color=#cf4813 face="霞鹜文楷">敲重点：这里的符号都没有空格( 就很离谱 )</font></p>
+<h3 id="3-引用"><a href="#3-引用" class="headerlink" title="3. 引用"></a>3. 引用</h3><p>  语法如下：</p>
+<ul>
+<li><p>&gt; 引用</p>
+</li>
+<li><p>&gt;&gt; 多层嵌套( 貌似是这个名词 )引用</p>
+</li>
+<li><p>&gt;&gt;&gt;你还可以加很多层( …够了 )</p>
+<p>效果如下：</p>
+</li>
+<li><blockquote>
+<p>引用</p>
+</blockquote>
+</li>
+<li><blockquote>
+<blockquote>
+<p>多层嵌套引用</p>
+</blockquote>
+</blockquote>
+</li>
+<li><blockquote>
+<blockquote>
+<blockquote>
+<p> 很多层( ..真的够了 )</p>
+</blockquote>
+</blockquote>
+</blockquote>
+</li>
+</ul>
+<p><font color=#cf4813 face="霞鹜文楷">敲重点：”&gt;“后有空格！！！最好每个都打，但貌似打在最后也是可以的（ …嫌弃 ）</font></p>
+<h3 id="4-修改字色、字号、字体"><a href="#4-修改字色、字号、字体" class="headerlink" title="4. 修改字色、字号、字体"></a>4. 修改字色、字号、字体</h3><p>  这是我最喜欢的环节！[ 谁能拒绝花里胡哨呢？ ]语法如下：</p>
+<ul>
+<li><p>&lt;font color=#0000ff&gt;修改字色&lt;/font&gt;</p>
+</li>
+<li><p>&lt;font size=5&gt;修改字号&lt;/font&gt;</p>
+</li>
+<li><p>&lt;font face=”楷体”&gt;修改字体&lt;/font&gt;</p>
+<p>效果如下：</p>
+</li>
+<li><p><font color=#0000ff>修改字色</font></p>
+</li>
+<li><p><font size=5>修改字号</font></p>
+</li>
+<li><p><font face="楷体">修改字体</font></p>
+</li>
+</ul>
+<p><font color=#cf4813 face="霞鹜文楷">敲重点：”字体”的引号为英文！！！如果同时修改字色字号字体的话，可以套用这个格式：</font></p>
+<p>​        &lt;font color=#0000ff size=5  face=”楷体”&gt;同时修改&lt;/font&gt;</p>
+<p>​                <font color=#cf4813 face="霞鹜文楷">效果如下：</font></p>
+<p>​        <font color=#0000ff size=5  face="楷体">同时修改</font></p>
+<p>​                <font color=#cf4813 face="霞鹜文楷">对了字体颜色建议使用web安全色<a href="https://www.shejidaren.com/examples/tools/websafecolors/">网页安全色大全 (shejidaren.com)</a></font></p>
+<p>​    <font face="小赖字体 等宽 SC">由于随时会清空历史记录所以我把大佬们的教程链接贴上！如下：</font></p>
+<p>​    <font face="小赖字体 等宽 SC"><a href="https://cloud.tencent.com/developer/article/1461211">Markdown笔记 | 一篇最详细的Markdown 教程 –&gt; 收好 - 云+社区 - 腾讯云 (tencent.com)</a></font></p>
+<p><font face="小赖字体 等宽 SC"><a href="https://www.jianshu.com/p/q81RER/">献给写作者的 Markdown 新手指南 - 简书 (jianshu.com)</a></font></p>
+<blockquote>
+<p>~就这样结束啦 [ 其实我是为了方便自己 ]</p>
+</blockquote>
+<p>​    Have a good day</p>
+]]></content>
+      <categories>
+        <category>学习</category>
+      </categories>
+      <tags>
+        <tag>markdown</tag>
+      </tags>
+  </entry>
 </search>
